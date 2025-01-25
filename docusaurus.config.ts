@@ -8,7 +8,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Perry Fardella",
-  tagline: "The life and times of a remote software dev",
+  tagline: "This is a tagline...",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -124,6 +124,10 @@ const config: Config = {
             {
               label: "Blog",
               to: "/blog",
+            },
+            {
+              label: "Projects",
+              to: "/projects",
             },
             {
               label: "GitHub",
