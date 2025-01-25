@@ -18,3 +18,18 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+webdevelopment:
+  label: Web Development
+  permalink: /web-development
+  description: All things web development
+
+personalfinance:
+  label: Personal Finance
+  permalink: /personal-finance
+  description: Everything to do with $$$; And other currencies
+
+travel:
+  label: Travel
+  permalink: /travel
+  description: Moving from one place to another
