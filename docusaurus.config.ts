@@ -86,11 +86,11 @@ const config: Config = {
         // },
         { to: "/blog", label: "Blog", position: "left" },
         { to: "/projects", label: "Projects", position: "left" },
-        {
-          href: "https://github.com/perryfardella",
-          label: "GitHub",
-          position: "right",
-        },
+        // {
+        //   href: "https://github.com/perryfardella",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -109,6 +109,10 @@ const config: Config = {
           title: "Socials",
           items: [
             {
+              label: "Github",
+              href: "https://www.github.com/perryfardella",
+            },
+            {
               label: "LinkedIn",
               href: "https://www.linkedin.com/in/perry-fardella/",
             },
@@ -118,25 +122,25 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "Projects",
-              to: "/projects",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/perryfardella",
-            },
-          ],
-        },
+        // {
+        //   title: "More",
+        //   items: [
+        //     {
+        //       label: "Blog",
+        //       to: "/blog",
+        //     },
+        //     {
+        //       label: "Projects",
+        //       to: "/projects",
+        //     },
+        //     {
+        //       label: "GitHub",
+        //       href: "https://github.com/perryfardella",
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Perry Fardella. If you want to use my content - ask me first.`,
     },
     prism: {
       theme: prismThemes.github,
